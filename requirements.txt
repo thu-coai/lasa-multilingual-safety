@@ -1,0 +1,16 @@
+accelerate
+datasets
+deepspeed
+loguru
+matplotlib
+numpy
+peft
+scikit-learn
+seaborn
+torch
+tqdm
+transformers
+trl
+vllm
+wandb
+
