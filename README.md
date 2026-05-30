@@ -220,22 +220,6 @@ bash scripts/run_generate.sh
 
 The output JSON contains `answer`; when SSI is enabled it also contains `safety_prefix_used` and `safety_score`.
 
-## Smoke Test
-
-Run entrypoint checks locally:
-
-```bash
-bash scripts/slurm_smoke_test.sh
-```
-
-Run the same checks through SLURM:
-
-```bash
-PARTITION=<partition> bash scripts/submit_smoke_test.sh
-```
-
-Logs are written to `logs/smoke-<jobid>.log` and `logs/smoke-<jobid>.error`.
-
 ## Citation
 
 ```bibtex
